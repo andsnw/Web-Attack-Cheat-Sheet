@@ -889,6 +889,14 @@ https://github.com/projectdiscovery/nuclei
 <br># Nuclei is used to send requests across targets based on a template leading to zero false positives and providing fast scanning on large number of hosts.
 <br>```nuclei -l urls.txt -t cves/ -t files/ -o results.txt```
 
+https://github.com/j3ssie/osmedeus
+<br># Osmedeus is a security focused declarative orchestration engine that simplifies complex workflow automation into auditable YAML definitions, complete with encrypted data handling, secure credential management, and sandboxed execution.
+<br>```osmedeus run -f general -t example.com```
+
+https://github.com/vigolium/vigolium
+<br># High-fidelity vulnerability scanner fusing agentic AI with native speed, modularity, and precision.
+<br>```vigolium scan -t https://www.example.com```
+
 https://github.com/six2dez/reconftw
 <br># reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform enumeration and finding out vulnerabilities.
 <br>```reconftw.sh -d example.com -a```
